@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="msgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+    <filter id="msgShadow" x="-10%" y="-10%" width="125%" height="125%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#0F172A" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <circle cx="180" cy="220" r="140" fill="#EFF6FF" opacity="0.6"/>
+  <circle cx="430" cy="270" r="130" fill="#F0FDF4" opacity="0.7"/>
+
+  <!-- Main Chat / Message Card -->
+  <g filter="url(#msgShadow)">
+    <rect x="100" y="90" width="400" height="320" rx="20" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+
+    <!-- Header bar -->
+    <rect x="100" y="90" width="400" height="55" rx="20" fill="#F8FAFC"/>
+    <line x1="100" y1="145" x2="500" y2="145" stroke="#E2E8F0" stroke-width="1"/>
+    
+    <!-- Status indicator -->
+    <circle cx="130" cy="118" r="6" fill="#10B981"/>
+    <text x="145" y="122" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Pusat Pesan Langsung</text>
+    <rect x="400" y="106" width="75" height="24" rx="12" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+    <text x="415" y="122" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#059669">Online</text>
+
+    <!-- Message Bubble 1 (User / incoming) -->
+    <rect x="130" y="170" width="220" height="60" rx="14" fill="#F1F5F9"/>
+    <text x="145" y="195" font-family="Inter, sans-serif" font-size="11" font-weight="500" fill="#334155">Halo Tim! Saya tertarik untuk</text>
+    <text x="145" y="212" font-family="Inter, sans-serif" font-size="11" font-weight="500" fill="#334155">berdiskusi mengenai proyek web.</text>
+
+    <!-- Message Bubble 2 (Reply) -->
+    <rect x="250" y="245" width="220" height="60" rx="14" fill="url(#msgGrad)"/>
+    <text x="265" y="270" font-family="Inter, sans-serif" font-size="11" font-weight="500" fill="#FFFFFF">Tentu! Silakan kirim detailnya</text>
+    <text x="265" y="287" font-family="Inter, sans-serif" font-size="11" font-weight="500" fill="#FFFFFF">melalui formulir di bawah ini.</text>
+
+    <!-- Message Input Bar Simulation -->
+    <rect x="130" y="325" width="340" height="50" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="150" y="354" font-family="Inter, sans-serif" font-size="11" fill="#94A3B8">Tuliskan pesan Anda di formulir...</text>
+    <circle cx="440" cy="350" r="16" fill="#2563EB"/>
+    <path d="M434 350 L446 344 L440 356 L439 351 Z" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Floating Paper Plane Badge -->
+  <g filter="url(#msgShadow)">
+    <circle cx="90" cy="140" r="28" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <path d="M78 140 L102 128 L94 150 L91 143 Z" fill="#2563EB"/>
+  </g>
+
+  <!-- Floating Response Badge -->
+  <g filter="url(#msgShadow)">
+    <rect x="360" y="50" width="160" height="46" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    <circle cx="385" cy="73" r="10" fill="#FEF3C7"/>
+    <path d="M385 68 V74 L389 76" stroke="#D97706" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="404" y="68" font-family="Inter, sans-serif" font-size="10" font-weight="700" fill="#0F172A">Respon Cepat</text>
+    <text x="404" y="82" font-family="Inter, sans-serif" font-size="8.5" fill="#64748B">Siap Berkolaborasi</text>
+  </g>
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="sarahBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDF4FF"/>
+      <stop offset="100%" stop-color="#FCE7F3"/>
+    </linearGradient>
+    <linearGradient id="sarahBlazer" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <clipPath id="sarahClip">
+      <circle cx="150" cy="150" r="140"/>
+    </clipPath>
+  </defs>
+
+  <!-- Circular Base -->
+  <circle cx="150" cy="150" r="148" fill="#FFFFFF" stroke="#EC4899" stroke-width="4"/>
+  <circle cx="150" cy="150" r="140" fill="url(#sarahBg)"/>
+
+  <!-- Inside Avatar Content -->
+  <g clip-path="url(#sarahClip)">
+    <!-- Glow behind -->
+    <circle cx="150" cy="130" r="90" fill="#FBCFE8" opacity="0.6"/>
+
+    <!-- Long Hair Back -->
+    <path d="M90 120 C90 190 85 270 95 300 H205 C215 270 210 190 210 120 C210 65 90 65 90 120 Z" fill="#312E81"/>
+
+    <!-- Shoulders & Outfit -->
+    <path d="M60 300 C60 220 95 208 150 208 C205 208 240 220 240 300 Z" fill="url(#sarahBlazer)"/>
+    <!-- Inner White Top -->
+    <path d="M125 208 C135 235 165 235 175 208 Z" fill="#FFFFFF"/>
+
+    <!-- Neck -->
+    <path d="M136 170 H164 V195 C164 203 158 210 150 210 C142 210 136 203 136 195 Z" fill="#FDE2D0"/>
+
+    <!-- Head & Face -->
+    <ellipse cx="150" cy="144" rx="40" ry="48" fill="#FDE2D0"/>
+
+    <!-- Ears & Earrings -->
+    <circle cx="109" cy="145" r="8" fill="#F9CBB0"/>
+    <circle cx="191" cy="145" r="8" fill="#F9CBB0"/>
+    <circle cx="109" cy="153" r="3" fill="#F59E0B"/>
+    <circle cx="191" cy="153" r="3" fill="#F59E0B"/>
+
+    <!-- Front Hair Style -->
+    <path d="M96 118 C100 80 130 70 150 70 C178 70 204 80 204 118 C194 98 178 94 150 94 C122 94 104 98 96 118 Z" fill="#1E1B4B"/>
+    <path d="M96 118 C102 145 106 175 112 195 C116 155 125 110 148 100 C125 98 105 105 96 118 Z" fill="#312E81"/>
+    <path d="M204 118 C198 145 194 175 188 195 C184 155 175 110 152 100 C175 98 195 105 204 118 Z" fill="#312E81"/>
+
+    <!-- Eyebrows -->
+    <path d="M125 128 C132 125 139 126 143 129" stroke="#1E1B4B" stroke-width="2" stroke-linecap="round"/>
+    <path d="M157 129 C161 126 168 125 175 128" stroke="#1E1B4B" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Eyes -->
+    <circle cx="134" cy="138" r="3.5" fill="#1E293B"/>
+    <circle cx="166" cy="138" r="3.5" fill="#1E293B"/>
+    <circle cx="135" cy="137" r="1" fill="#FFFFFF"/>
+    <circle cx="167" cy="137" r="1" fill="#FFFFFF"/>
+    <path d="M127 135 C132 133 138 133 141 136" stroke="#1E293B" stroke-width="1.2" fill="none"/>
+    <path d="M159 136 C162 133 168 133 173 135" stroke="#1E293B" stroke-width="1.2" fill="none"/>
+
+    <!-- Nose -->
+    <path d="M150 141 V151 H154" stroke="#E07A5F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+
+    <!-- Smile (warm with lip color) -->
+    <path d="M140 166 Q150 176 160 166" stroke="#E11D48" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <ellipse cx="128" cy="154" rx="6" ry="3" fill="#F43F5E" opacity="0.25"/>
+    <ellipse cx="172" cy="154" rx="6" ry="3" fill="#F43F5E" opacity="0.25"/>
+  </g>
+
+  <!-- Active Status Badge -->
+  <circle cx="230" cy="230" r="14" fill="#FFFFFF"/>
+  <circle cx="230" cy="230" r="10" fill="#10B981"/>
+</svg>

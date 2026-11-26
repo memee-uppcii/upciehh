@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFF6FF"/>
+      <stop offset="100%" stop-color="#DBEAFE"/>
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="125%" height="125%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0F172A" flood-opacity="0.08"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background Ambient Circles -->
+  <circle cx="480" cy="120" r="100" fill="#E0F2FE" opacity="0.7"/>
+  <circle cx="100" cy="380" r="120" fill="#EEF2FF" opacity="0.8"/>
+  <circle cx="300" cy="250" r="160" fill="#F0FDF4" opacity="0.5"/>
+
+  <!-- Main Browser Window Mockup -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="70" width="460" height="320" rx="16" fill="url(#cardGrad)" stroke="#E2E8F0" stroke-width="1.5"/>
+    
+    <!-- Window Bar -->
+    <path d="M70 86 C70 77.1634 77.1634 70 86 70 L514 70 C522.837 70 530 77.1634 530 86 L530 110 L70 110 Z" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
+    <circle cx="95" cy="90" r="5" fill="#EF4444"/>
+    <circle cx="110" cy="90" r="5" fill="#F59E0B"/>
+    <circle cx="125" cy="90" r="5" fill="#10B981"/>
+    
+    <!-- Search Bar in Header -->
+    <rect x="150" y="80" width="220" height="20" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    <circle cx="165" cy="90" r="4" stroke="#94A3B8" stroke-width="1.5" fill="none"/>
+    <line x1="168" y1="93" x2="173" y2="98" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round"/>
+    <rect x="180" y="87" width="80" height="6" rx="3" fill="#E2E8F0"/>
+
+    <!-- Content Area -->
+    <!-- Left Navigation Bar -->
+    <rect x="90" y="130" width="80" height="18" rx="5" fill="#E0E7FF"/>
+    <rect x="90" y="160" width="70" height="10" rx="4" fill="#E2E8F0"/>
+    <rect x="90" y="180" width="60" height="10" rx="4" fill="#E2E8F0"/>
+    <rect x="90" y="200" width="75" height="10" rx="4" fill="#E2E8F0"/>
+    <rect x="90" y="220" width="50" height="10" rx="4" fill="#E2E8F0"/>
+
+    <!-- Center Chart Card -->
+    <rect x="190" y="130" width="200" height="140" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="205" y="152" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#1E293B">Aktivitas &amp; Performa Web</text>
+    <polyline points="205,240 235,210 265,225 295,185 325,195 355,160 375,170" fill="none" stroke="url(#primaryGrad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="355" cy="160" r="4" fill="#2563EB"/>
+    <circle cx="295" cy="185" r="4" fill="#3B82F6"/>
+    
+    <!-- Mini Metric Cards -->
+    <rect x="405" y="130" width="105" height="65" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+    <text x="415" y="150" font-family="Inter, sans-serif" font-size="9" font-weight="600" fill="#1E40AF">Kecepatan</text>
+    <text x="415" y="172" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="#1D4ED8">99.8%</text>
+
+    <rect x="405" y="205" width="105" height="65" rx="10" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1"/>
+    <text x="415" y="225" font-family="Inter, sans-serif" font-size="9" font-weight="600" fill="#166534">Responsif</text>
+    <text x="415" y="247" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="#15803D">100%</text>
+
+    <!-- Bottom Code Bar -->
+    <rect x="190" y="285" width="320" height="75" rx="10" fill="#0F172A"/>
+    <circle cx="208" cy="302" r="3" fill="#EF4444"/>
+    <circle cx="218" cy="302" r="3" fill="#F59E0B"/>
+    <circle cx="228" cy="302" r="3" fill="#10B981"/>
+    <text x="245" y="305" font-family="Consolas, monospace" font-size="9" fill="#94A3B8">src/components/App.tsx</text>
+    <text x="208" y="325" font-family="Consolas, monospace" font-size="9" fill="#38BDF8">const</text>
+    <text x="240" y="325" font-family="Consolas, monospace" font-size="9" fill="#F8FAFC">webSolution</text>
+    <text x="310" y="325" font-family="Consolas, monospace" font-size="9" fill="#F43F5E">=</text>
+    <text x="325" y="325" font-family="Consolas, monospace" font-size="9" fill="#A855F7">createImpactfulExperience</text>
+    <text x="470" y="325" font-family="Consolas, monospace" font-size="9" fill="#F8FAFC">();</text>
+    <text x="208" y="343" font-family="Consolas, monospace" font-size="9" fill="#4ADE80">// Siap dideploy ke Vercel dengan performa maksimal</text>
+  </g>
+
+  <!-- Floating Floating Badge 1: Vercel Ready -->
+  <g filter="url(#shadow)">
+    <rect x="30" y="210" width="150" height="52" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    <circle cx="56" cy="236" r="14" fill="#000000"/>
+    <polygon points="56,228 64,242 48,242" fill="#FFFFFF"/>
+    <text x="78" y="229" font-family="Inter, sans-serif" font-size="11" font-weight="700" fill="#0F172A">Vercel Ready</text>
+    <text x="78" y="244" font-family="Inter, sans-serif" font-size="9" fill="#64748B">Optimized Deploy</text>
+  </g>
+
+  <!-- Floating Badge 2: Modern Design -->
+  <g filter="url(#shadow)">
+    <rect x="420" y="40" width="150" height="54" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    <circle cx="448" cy="67" r="14" fill="#EEF2FF"/>
+    <path d="M443 67 L447 71 L454 63" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="470" y="60" font-family="Inter, sans-serif" font-size="11" font-weight="700" fill="#0F172A">Clean &amp; Light</text>
+    <text x="470" y="75" font-family="Inter, sans-serif" font-size="9" fill="#64748B">Semi-formal Style</text>
+  </g>
+
+  <!-- Floating Badge 3: Fast & Secure -->
+  <g filter="url(#shadow)">
+    <rect x="420" y="340" width="150" height="54" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    <circle cx="448" cy="367" r="14" fill="#ECFDF5"/>
+    <path d="M448 359 L454 362 V368 C454 372 448 375 448 375 C448 375 442 372 442 368 V362 Z" fill="#10B981"/>
+    <text x="470" y="360" font-family="Inter, sans-serif" font-size="11" font-weight="700" fill="#0F172A">Privasi Terjaga</text>
+    <text x="470" y="375" font-family="Inter, sans-serif" font-size="9" fill="#64748B">Aman &amp; Terpercaya</text>
+  </g>
+</svg>

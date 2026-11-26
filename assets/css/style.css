@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  
+  /* Palette: Perpaduan Biru Navy & Biru Muda / Biru Langit (Light Theme) */
+  --bg-sky: #F0F7FF;          /* Latar belakang cerah biru langit sangat lembut */
+  --bg-card: #FFFFFF;         /* Kartu putih bersih */
+  
+  --navy-dark: #0A192F;       /* Biru navy pekat untuk kontras dan teks tajam */
+  --navy-main: #0F2547;       /* Biru navy utama */
+  --navy-light: #1E3A8A;      /* Biru navy aksen royal */
+  
+  --sky-primary: #0284C7;     /* Biru muda / langit solid */
+  --sky-vibrant: #38BDF8;     /* Biru langit terang */
+  --sky-light: #BAE6FD;       /* Biru langit pastel */
+  --sky-tint: #E0F2FE;        /* Tint lembut biru langit */
+  
+  --text-main: #0A192F;       /* Teks utama navy gelap */
+  --text-body: #1E293B;       /* Teks deskripsi slate navy */
+  --text-muted: #475569;      /* Teks sekunder */
+  
+  --border-light: #BAE6FD;    /* Border biru langit */
+  --border-navy: #1E3A8A;     /* Border navy aksen */
+  --shadow-navy: rgba(15, 37, 71, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-sky);
+  color: var(--text-body);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Glassmorphism Header Navy & Sky Blue */
+.glass-header {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border-light);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  transition: all 0.3s ease;
+}
+
+/* Card Hover with Navy & Sky Blue Elevation */
+.card-hover {
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 30px -10px var(--shadow-navy);
+  border-color: var(--sky-primary);
+}
+
+/* Gradient Badge & Elements */
+.badge-navy-sky {
+  background: linear-gradient(135deg, #E0F2FE 0%, #BAE6FD 100%);
+  color: #0F2547;
+  border: 1px solid #7DD3FC;
+}
+
+.btn-navy-sky {
+  background: linear-gradient(135deg, #0F2547 0%, #1E3A8A 50%, #0284C7 100%);
+  color: #FFFFFF;
+  transition: all 0.25s ease;
+}
+.btn-navy-sky:hover {
+  background: linear-gradient(135deg, #0A192F 0%, #0F2547 50%, #0369A1 100%);
+  box-shadow: 0 8px 20px -4px rgba(2, 132, 199, 0.35);
+  transform: scale(1.02);
+}
+
+/* Smooth Form Focus */
+input:focus, textarea:focus, select:focus, button:focus {
+  outline: none;
+  border-color: var(--sky-primary);
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.25);
+}
+
+/* Gentle Floating Animation */
+@keyframes floatSoft {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-7px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: floatSoft 5s ease-in-out infinite;
+}
+
+/* Custom Scrollbar Navy & Sky */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #E0F2FE;
+}
+::-webkit-scrollbar-thumb {
+  background: #38BDF8;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0F2547;
+}

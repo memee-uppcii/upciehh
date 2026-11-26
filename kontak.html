@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halaman Kontak | Terhubung dengan Meme</title>
+  <meta name="description" content="Kanal komunikasi resmi Meme. Kunjungi Instagram @suguuuss_1201 dan TikTok @permensuguss1 atau kirim pesan langsung melalui formulir web.">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Custom Style: Perpaduan Biru Navy & Biru Langit -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+</head>
+<body class="bg-[#F0F7FF] text-slate-800 antialiased flex flex-col min-h-screen">
+
+  <!-- Navigation Bar (Light Theme: Biru Navy & Biru Langit) -->
+  <header class="glass-header sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-sky-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Logo Branding -->
+      <a href="index.html" class="flex items-center gap-3 group">
+        <div class="w-11 h-11 rounded-2xl bg-gradient-to-tr from-[#0F2547] via-[#1E3A8A] to-[#0284C7] p-1 text-white flex items-center justify-center font-extrabold text-xl shadow-md shadow-sky-500/20 group-hover:scale-105 transition-transform">
+          M
+        </div>
+        <div class="flex flex-col">
+          <div class="flex items-center gap-1.5">
+            <span class="font-extrabold text-lg tracking-tight text-[#0F2547] leading-none">Meme</span>
+            <span class="px-2 py-0.5 rounded-full bg-sky-100 text-[#0F2547] text-[10px] font-bold border border-sky-200">16 Tahun</span>
+          </div>
+          <span class="text-xs text-sky-700 font-medium">SMK Telkom Malang • Jurusan TKJ</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="hidden md:flex items-center gap-8 text-sm font-semibold">
+        <a href="index.html" class="nav-link text-slate-600 hover:text-[#0F2547] transition">Selamat Datang</a>
+        <a href="profil.html" class="nav-link text-slate-600 hover:text-[#0F2547] transition">Halaman Profil</a>
+        <a href="kontak.html" class="nav-link text-[#0284C7] font-bold border-b-2 border-[#0284C7] pb-1 transition">Halaman Kontak</a>
+      </nav>
+
+      <!-- Action Button -->
+      <div class="hidden md:flex items-center gap-4">
+        <a href="#sosmed-section" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full btn-navy-sky text-sm font-semibold shadow-md">
+          <span>Kunjungi Medsos</span>
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg text-slate-700 hover:bg-sky-50 focus:outline-none" aria-label="Buka Menu">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation Dropdown -->
+    <div id="mobile-menu" class="hidden md:hidden border-b border-sky-200 bg-white px-4 pt-2 pb-5 space-y-2">
+      <a href="index.html" class="block px-3 py-2 rounded-lg text-base font-medium text-slate-600 hover:text-[#0F2547] hover:bg-sky-50">Selamat Datang Aku Meme</a>
+      <a href="profil.html" class="block px-3 py-2 rounded-lg text-base font-medium text-slate-600 hover:text-[#0F2547] hover:bg-sky-50">Halaman Profil</a>
+      <a href="kontak.html" class="block px-3 py-2 rounded-lg text-base font-bold text-[#0284C7] bg-sky-50">Halaman Kontak</a>
+    </div>
+  </header>
+
+  <main class="flex-grow">
+    <!-- Header Hero Kontak -->
+    <section class="pt-10 pb-16 bg-white border-b border-sky-200">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+          
+          <div class="lg:col-span-7 space-y-5 text-center lg:text-left">
+            <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full badge-navy-sky text-xs font-bold shadow-xs">
+              <span>📱</span>
+              <span>Kanal Resmi Instagram &amp; TikTok</span>
+            </span>
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#0F2547] tracking-tight leading-tight">
+              Mari Terhubung &amp; Ikuti <br>
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#0F2547] via-[#1E3A8A] to-[#0284C7]">Keseharian &amp; Karya Meme!</span>
+            </h1>
+            <p class="text-base sm:text-lg text-slate-700 leading-relaxed">
+              Ingin tahu lebih banyak seputar latihan menari, pementasan cerita rakyat nusantara, dan kegiatan sekolah di SMK Telkom Malang? Kalian bisa langsung terhubung melalui akun media sosial resmi atau mengirim pesan pada formulir di bawah.
+            </p>
+          </div>
+
+          <div class="lg:col-span-5 flex justify-center">
+            <div class="relative w-full max-w-sm">
+              <div class="p-3 rounded-3xl bg-white border-2 border-sky-300 shadow-xl overflow-hidden card-hover">
+                <img src="assets/images/foto-meme.jpg" alt="Foto Zaescia Putrisuta Rizkiillahi (MEME)" class="w-full h-auto rounded-2xl object-cover aspect-[3/4]">
+                <div class="mt-2 text-center">
+                  <span class="text-xs font-bold text-[#0F2547]">Meme (Zaescia Putrisuta R.)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Dua Kanal Medsos Resmi (Sesuai Poin 3) -->
+    <section id="sosmed-section" class="py-14 bg-[#F0F7FF]">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Banner Pernyataan Pengguna (Sesuai Butir 3) -->
+        <div class="max-w-3xl mx-auto mb-10 text-center space-y-3">
+          <div class="inline-block px-4 py-1.5 rounded-full bg-white border border-sky-200 text-xs font-bold text-[#0284C7] shadow-xs">
+            Pesan Pengantar Kontak
+          </div>
+          <div class="p-5 rounded-2xl bg-white border-2 border-sky-300 shadow-xs">
+            <blockquote class="text-base sm:text-lg font-bold text-[#0F2547]">
+              "Kalau mau tau kegiatanku bisa langsung buka IG: <span class="text-[#0284C7]">@suguuuss_1201</span> TikTok: <span class="text-[#0284C7]">@permensuguss1</span>"
+            </blockquote>
+          </div>
+        </div>
+
+        <!-- Grid 2 Card Medsos Interaktif -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
+          
+          <!-- Card Instagram: suguuuss_1201 -->
+          <a href="https://instagram.com/suguuuss_1201" target="_blank" rel="noopener noreferrer" class="bg-white p-7 rounded-3xl border-2 border-sky-300 shadow-sm card-hover flex items-center gap-5 group">
+            <div class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-amber-500 via-rose-500 to-purple-600 text-white flex items-center justify-center text-3xl shadow-md group-hover:scale-110 transition-transform flex-shrink-0">
+              📸
+            </div>
+            <div class="space-y-1 flex-1">
+              <span class="px-2.5 py-0.5 rounded-full bg-pink-100 text-pink-700 text-xs font-extrabold">Instagram Resmi</span>
+              <h3 class="text-xl font-extrabold text-[#0F2547] group-hover:text-[#0284C7] transition">@suguuuss_1201</h3>
+              <p class="text-xs text-slate-500">Kumpulan foto dokumentasi seni tari &amp; kegiatan sehari-hari.</p>
+              <div class="pt-1 flex items-center gap-1 text-xs font-bold text-[#0284C7] group-hover:translate-x-1 transition-transform">
+                <span>Buka Profil Instagram</span> &rarr;
+              </div>
+            </div>
+          </a>
+
+          <!-- Card TikTok: permensuguss1 -->
+          <a href="https://tiktok.com/@permensuguss1" target="_blank" rel="noopener noreferrer" class="bg-white p-7 rounded-3xl border-2 border-sky-300 shadow-sm card-hover flex items-center gap-5 group">
+            <div class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-[#0F2547] via-[#1E3A8A] to-[#0284C7] text-white flex items-center justify-center text-3xl shadow-md group-hover:scale-110 transition-transform flex-shrink-0">
+              🎵
+            </div>
+            <div class="space-y-1 flex-1">
+              <span class="px-2.5 py-0.5 rounded-full bg-sky-100 text-[#0F2547] text-xs font-extrabold">TikTok Resmi</span>
+              <h3 class="text-xl font-extrabold text-[#0F2547] group-hover:text-[#0284C7] transition">@permensuguss1</h3>
+              <p class="text-xs text-slate-500">Cuplikan video latihan koreografi tari &amp; kreasi konten seru.</p>
+              <div class="pt-1 flex items-center gap-1 text-xs font-bold text-[#0284C7] group-hover:translate-x-1 transition-transform">
+                <span>Buka Akun TikTok</span> &rarr;
+              </div>
+            </div>
+          </a>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section: Formulir Pesan Langsung & Jaminan Privasi -->
+    <section class="py-16 bg-white border-t border-sky-200">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+          
+          <!-- Kolom Kiri: Form Interaktif -->
+          <div class="lg:col-span-7 bg-[#F0F7FF] p-8 sm:p-10 rounded-3xl border-2 border-sky-200 shadow-sm">
+            <div class="mb-8">
+              <h2 class="text-2xl font-bold text-[#0F2547]">Kirimkan Pesan Langsung untuk Meme</h2>
+              <p class="text-xs sm:text-sm text-slate-600 mt-1">
+                Kalian bisa menyampaikan apresiasi karya tari, sapaan hangat, atau pertanyaan seputar SMK Telkom Malang.
+              </p>
+            </div>
+
+            <form id="contact-form" class="space-y-6">
+              <!-- Kolom Nama -->
+              <div>
+                <label for="sender-name" class="block text-xs font-bold text-[#0F2547] uppercase tracking-wider mb-2">
+                  Nama Anda <span class="text-rose-500">*</span>
+                </label>
+                <input 
+                  type="text" 
+                  id="sender-name" 
+                  name="sender-name"
+                  required
+                  placeholder="Contoh: Budi Santoso"
+                  class="w-full px-4 py-3 rounded-xl border border-sky-200 bg-white text-slate-900 text-sm focus:border-[#0284C7] transition"
+                >
+              </div>
+
+              <!-- Kategori Pesan -->
+              <div>
+                <label for="inquiry-category" class="block text-xs font-bold text-[#0F2547] uppercase tracking-wider mb-2">
+                  Kategori Pesan <span class="text-rose-500">*</span>
+                </label>
+                <select 
+                  id="inquiry-category" 
+                  name="inquiry-category" 
+                  class="w-full px-4 py-3 rounded-xl border border-sky-200 bg-white text-slate-900 text-sm focus:border-[#0284C7] transition"
+                >
+                  <option value="Apresiasi Seni Tari">Apresiasi Karya Seni Tari Cerita Rakyat</option>
+                  <option value="Tanya Seputar TKJ">Tanya Seputar Jurusan TKJ &amp; SMK Telkom Malang</option>
+                  <option value="Undangan Kolaborasi">Undangan Pementasan / Kolaborasi Tari</option>
+                  <option value="Sapaan Sahabat">Sapaan Hangat &amp; Dukungan Semangat</option>
+                </select>
+              </div>
+
+              <!-- Subjek -->
+              <div>
+                <label for="message-subject" class="block text-xs font-bold text-[#0F2547] uppercase tracking-wider mb-2">
+                  Subjek Pesan <span class="text-rose-500">*</span>
+                </label>
+                <input 
+                  type="text" 
+                  id="message-subject" 
+                  name="message-subject"
+                  required
+                  placeholder="Contoh: Semangat Selalu untuk Karya Seni Tarinya!"
+                  class="w-full px-4 py-3 rounded-xl border border-sky-200 bg-white text-slate-900 text-sm focus:border-[#0284C7] transition"
+                >
+              </div>
+
+              <!-- Isi Pesan -->
+              <div>
+                <label for="message-content" class="block text-xs font-bold text-[#0F2547] uppercase tracking-wider mb-2">
+                  Isi Pesan <span class="text-rose-500">*</span>
+                </label>
+                <textarea 
+                  id="message-content" 
+                  name="message-content" 
+                  rows="5"
+                  required
+                  placeholder="Tuliskan pesan Anda secara sopan dan semi-formal..."
+                  class="w-full px-4 py-3 rounded-xl border border-sky-200 bg-white text-slate-900 text-sm focus:border-[#0284C7] transition resize-y"
+                ></textarea>
+              </div>
+
+              <!-- Tombol Kirim Pesan -->
+              <div>
+                <button 
+                  type="submit" 
+                  class="w-full py-3.5 px-6 rounded-xl btn-navy-sky text-white font-semibold text-sm shadow-md transition-all flex items-center justify-center gap-2"
+                >
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/>
+                  </svg>
+                  <span>Kirim Pesan Langsung</span>
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <!-- Kolom Kanan: Info Penerima & Jaminan Privasi (Sesuai Poin 7) -->
+          <div class="lg:col-span-5 space-y-6">
+            
+            <div class="bg-[#F0F7FF] p-6 rounded-3xl border-2 border-sky-200 shadow-xs space-y-4">
+              <h3 class="text-base font-bold text-[#0F2547]">Profil Penerima Pesan</h3>
+
+              <!-- Kartu Foto Asli Meme -->
+              <div class="flex items-center gap-3.5 p-3.5 rounded-2xl bg-white border border-sky-200 shadow-xs">
+                <div class="w-14 h-14 rounded-full overflow-hidden flex-shrink-0 border-2 border-[#0284C7]">
+                  <img src="assets/images/foto-meme.jpg" alt="Foto Zaescia Putrisuta Rizkiillahi (MEME)" class="w-full h-full object-cover">
+                </div>
+                <div>
+                  <h4 class="text-sm font-bold text-[#0F2547]">Zaescia Putrisuta R. (MEME)</h4>
+                  <p class="text-xs text-[#0284C7] font-semibold">SMK Telkom Malang • Jurusan TKJ</p>
+                  <p class="text-[11px] text-slate-500">Penari Cerita Rakyat • 16 Tahun</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Jaminan Perlindungan Data (Sesuai Poin 7) -->
+            <div class="bg-white p-6 rounded-3xl border-2 border-sky-200 shadow-xs space-y-3">
+              <div class="flex items-center gap-2">
+                <span class="w-3 h-3 rounded-full bg-[#0284C7]"></span>
+                <h3 class="text-sm font-bold text-[#0F2547]">Kebijakan Privasi Pengunjung</h3>
+              </div>
+              <ul class="text-xs text-slate-600 space-y-2">
+                <li class="flex items-start gap-2">
+                  <span class="text-[#0284C7] font-bold">•</span>
+                  <span><strong>Tanpa Nomor Handphone:</strong> Menjaga kenyamanan dan privasi pelajar dari kontak telepon pribadi dan spam.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-[#0284C7] font-bold">•</span>
+                  <span><strong>Tanpa Alamat Rumah/Sekolah Fisik:</strong> Komunikasi diarahkan aman melalui Instagram, TikTok, dan formulir web ini.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-[#0284C7] font-bold">•</span>
+                  <span><strong>Tanpa Alamat Email:</strong> Pesan langsung tercatat dalam antrean formulir web tanpa mengharuskan input email pribadi.</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Kartu Ilustrasi Komunikasi -->
+            <div class="bg-[#F0F7FF] p-5 rounded-3xl border border-sky-200 text-center">
+              <p class="text-xs font-bold text-[#0F2547]">Media Sosial Aktif:</p>
+              <div class="mt-2 flex items-center justify-center gap-4 text-xs">
+                <a href="https://instagram.com/suguuuss_1201" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-xl bg-white border border-sky-200 text-pink-700 font-bold hover:bg-sky-50 transition">
+                  IG: @suguuuss_1201
+                </a>
+                <a href="https://tiktok.com/@permensuguss1" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-xl bg-white border border-sky-200 text-[#0F2547] font-bold hover:bg-sky-50 transition">
+                  TikTok: @permensuguss1
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="mt-16 max-w-3xl mx-auto">
+          <div class="text-center mb-8">
+            <h3 class="text-2xl font-bold text-[#0F2547]">Pertanyaan yang Sering Diajukan</h3>
+            <p class="text-xs sm:text-sm text-slate-500 mt-1">Seputar media sosial dan interaksi dengan Meme.</p>
+          </div>
+
+          <div class="space-y-3">
+            <div class="border border-sky-200 rounded-xl bg-white overflow-hidden">
+              <button type="button" class="faq-toggle w-full px-5 py-4 text-left font-semibold text-sm text-[#0F2547] flex justify-between items-center hover:bg-sky-50 transition">
+                <span>Di mana saya bisa melihat video penampilan tari Meme?</span>
+                <svg class="faq-icon w-4 h-4 text-slate-500 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
+              <div class="faq-answer hidden px-5 pb-4 text-xs sm:text-sm text-slate-600 border-t border-sky-100 pt-3">
+                Kalian bisa mengunjungi akun TikTok resmi <strong>@permensuguss1</strong> dan Instagram <strong>@suguuuss_1201</strong> untuk menyaksikan cuplikan latihan koreografi serta rekaman pementasan seni tari cerita rakyat.
+              </div>
+            </div>
+
+            <div class="border border-sky-200 rounded-xl bg-white overflow-hidden">
+              <button type="button" class="faq-toggle w-full px-5 py-4 text-left font-semibold text-sm text-[#0F2547] flex justify-between items-center hover:bg-sky-50 transition">
+                <span>Mengapa tidak dicantumkan nomor telepon atau email?</span>
+                <svg class="faq-icon w-4 h-4 text-slate-500 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
+              <div class="faq-answer hidden px-5 pb-4 text-xs sm:text-sm text-slate-600 border-t border-sky-100 pt-3">
+                Sesuai kebijakan keamanan dan privasi pelajar, seluruh interaksi difasilitasi dengan aman melalui akun media sosial resmi atau formulir pesan web langsung ini.
+              </div>
+            </div>
+
+            <div class="border border-sky-200 rounded-xl bg-white overflow-hidden">
+              <button type="button" class="faq-toggle w-full px-5 py-4 text-left font-semibold text-sm text-[#0F2547] flex justify-between items-center hover:bg-sky-50 transition">
+                <span>Apakah website ini siap di-upload ke Vercel?</span>
+                <svg class="faq-icon w-4 h-4 text-slate-500 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </button>
+              <div class="faq-answer hidden px-5 pb-4 text-xs sm:text-sm text-slate-600 border-t border-sky-100 pt-3">
+                Ya! Situs ini dibangun murni berbasis HTML5 statis, didukung file konfigurasi <code>vercel.json</code> dengan fitur <em>clean URLs</em>, sehingga dapat langsung aktif di Vercel dalam hitungan detik.
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Interactive Feedback Modal -->
+  <div id="form-success-modal" class="fixed inset-0 z-50 bg-[#0F2547]/40 backdrop-blur-xs hidden items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-md w-full p-6 sm:p-8 shadow-2xl border-2 border-sky-200 text-center space-y-5 animate-in">
+      <div class="w-16 h-16 rounded-full bg-sky-100 text-[#0284C7] mx-auto flex items-center justify-center">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+        </svg>
+      </div>
+
+      <div>
+        <h3 class="text-xl font-bold text-[#0F2547]">Pesan Berhasil Terkirim!</h3>
+        <p class="text-xs sm:text-sm text-slate-600 mt-2 leading-relaxed">
+          Terima kasih, <strong id="modal-sender-name" class="text-[#0284C7]">Sahabat</strong>. Pesan Anda telah diterima oleh Meme. Jangan lupa kunjungi Instagram <strong>@suguuuss_1201</strong> dan TikTok <strong>@permensuguss1</strong> ya!
+        </p>
+      </div>
+
+      <div class="pt-2">
+        <button 
+          id="close-modal-btn" 
+          type="button" 
+          class="w-full py-3 px-5 rounded-xl btn-navy-sky text-white font-semibold text-sm shadow-md"
+        >
+          Tutup &amp; Kembali ke Halaman
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Clean Footer (STRICTLY NO PHONE, NO ADDRESS, NO EMAIL) -->
+  <footer class="bg-white border-t border-sky-200 py-12">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+        
+        <div class="md:col-span-6 space-y-3">
+          <div class="flex items-center gap-3">
+            <div class="w-8 h-8 rounded-lg bg-[#0F2547] text-white flex items-center justify-center font-bold text-sm">
+              M
+            </div>
+            <span class="font-extrabold text-base text-[#0F2547]">Zaescia Putrisuta R. (Meme)</span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-500 max-w-md leading-relaxed">
+            Halaman kontak resmi Meme. Mengutamakan komunikasi aman melalui media sosial Instagram dan TikTok serta formulir interaktif web.
+          </p>
+        </div>
+
+        <div class="md:col-span-3 space-y-3">
+          <h4 class="text-xs font-bold text-[#0F2547] uppercase tracking-wider">Navigasi Halaman</h4>
+          <ul class="space-y-2 text-xs sm:text-sm">
+            <li><a href="index.html" class="text-slate-600 hover:text-[#0F2547] transition">1. Selamat Datang Aku Meme</a></li>
+            <li><a href="profil.html" class="text-slate-600 hover:text-[#0F2547] transition">2. Halaman Profil</a></li>
+            <li><a href="kontak.html" class="text-[#0284C7] font-bold hover:underline">3. Halaman Kontak</a></li>
+          </ul>
+        </div>
+
+        <div class="md:col-span-3 space-y-3">
+          <h4 class="text-xs font-bold text-[#0F2547] uppercase tracking-wider">Media Sosial Resmi</h4>
+          <p class="text-xs text-slate-600 font-medium">Instagram: <a href="https://instagram.com/suguuuss_1201" target="_blank" rel="noopener noreferrer" class="text-[#0284C7] font-bold hover:underline">@suguuuss_1201</a></p>
+          <p class="text-xs text-slate-600 font-medium">TikTok: <a href="https://tiktok.com/@permensuguss1" target="_blank" rel="noopener noreferrer" class="text-[#0284C7] font-bold hover:underline">@permensuguss1</a></p>
+          <p class="text-[11px] text-slate-400 mt-1">Kebijakan privasi: Tanpa nomor handphone, alamat fisik, atau email.</p>
+        </div>
+
+      </div>
+
+      <div class="mt-10 pt-6 border-t border-sky-100 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-4">
+        <p>&copy; 2026 Zaescia Putrisuta Rizkiillahi (Meme) — SMK Telkom Malang. Hak Cipta Dilindungi.</p>
+        <p class="font-medium text-[#0284C7]">Konsep Warna: Biru Navy &amp; Biru Langit • Siap Deploy di Vercel</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="memeGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FEF3C7"/>
+      <stop offset="100%" stop-color="#FDE68A"/>
+    </linearGradient>
+    <linearGradient id="brainGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+    <filter id="mShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#0F172A" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Ambient light blobs -->
+  <circle cx="160" cy="180" r="140" fill="#FEF3C7" opacity="0.6"/>
+  <circle cx="440" cy="280" r="130" fill="#E0E7FF" opacity="0.6"/>
+
+  <!-- Main Canvas Card (Meme Frame) -->
+  <g filter="url(#mShadow)">
+    <rect x="90" y="70" width="420" height="340" rx="20" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+    
+    <!-- Top Window / Social Header -->
+    <path d="M90 90 C90 79 99 70 110 70 L490 70 C501 70 510 79 510 90 L510 120 L90 120 Z" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <circle cx="120" cy="95" r="5" fill="#EF4444"/>
+    <circle cx="135" cy="95" r="5" fill="#F59E0B"/>
+    <circle cx="150" cy="95" r="5" fill="#10B981"/>
+    <rect x="180" y="85" width="220" height="20" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="210" y="99" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#64748B">meme-culture.encyclopedia/archive</text>
+
+    <!-- Meme Visual Content: Doge + Galaxy Brain Stylized Elements -->
+    <!-- Card inside: Meme Doge Representation -->
+    <rect x="120" y="145" width="170" height="150" rx="16" fill="url(#memeGrad1)" stroke="#FCD34D" stroke-width="1.5"/>
+    <!-- Doge face minimalist geometric vector -->
+    <circle cx="205" cy="205" r="42" fill="#F59E0B"/>
+    <!-- Doge ears -->
+    <polygon points="175,175 190,145 205,175" fill="#D97706"/>
+    <polygon points="205,175 220,145 235,175" fill="#D97706"/>
+    <!-- Doge muzzle -->
+    <ellipse cx="205" cy="215" rx="20" ry="16" fill="#FEF3C7"/>
+    <polygon points="200,208 210,208 205,214" fill="#1E293B"/>
+    <!-- Doge eyes -->
+    <ellipse cx="192" cy="198" rx="4" ry="5" fill="#1E293B"/>
+    <ellipse cx="218" cy="198" rx="4" ry="5" fill="#1E293B"/>
+    <circle cx="193" cy="196" r="1.5" fill="#FFFFFF"/>
+    <circle cx="219" cy="196" r="1.5" fill="#FFFFFF"/>
+    <!-- Comic sans text floating -->
+    <text x="130" y="165" font-family="Comic Sans MS, cursive, sans-serif" font-size="11" font-weight="bold" fill="#D97706">much culture</text>
+    <text x="215" y="280" font-family="Comic Sans MS, cursive, sans-serif" font-size="11" font-weight="bold" fill="#2563EB">so semi-formal</text>
+
+    <!-- Galaxy Brain / Intellectual Analysis Card -->
+    <rect x="310" y="145" width="170" height="150" rx="16" fill="#EEF2FF" stroke="#C7D2FE" stroke-width="1.5"/>
+    <!-- Glowing brain rays -->
+    <circle cx="395" cy="210" r="32" fill="url(#brainGrad)"/>
+    <path d="M380 205 C380 195 410 195 410 205 C415 215 375 225 395 230" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <!-- Light bursts -->
+    <line x1="395" y1="165" x2="395" y2="155" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="435" y1="180" x2="445" y2="175" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="355" y1="180" x2="345" y2="175" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="325" y="275" font-family="Inter, sans-serif" font-size="10" font-weight="700" fill="#4338CA">Kajian Semiotika</text>
+    <text x="325" y="288" font-family="Inter, sans-serif" font-size="8.5" fill="#6366F1">Humor Berbobot</text>
+
+    <!-- Bottom Caption Bar -->
+    <rect x="120" y="315" width="360" height="70" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="140" y="342" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#0F172A">"Meme adalah Satuan Gagasan Budaya Digital"</text>
+    <text x="140" y="362" font-family="Inter, sans-serif" font-size="10" fill="#64748B">Ditransmisikan secara masif lewat humor, konteks sosial, dan empati online.</text>
+  </g>
+
+  <!-- Floating Badge: Viral & Impactful -->
+  <g filter="url(#mShadow)">
+    <rect x="40" y="210" width="130" height="46" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    <circle cx="62" cy="233" r="12" fill="#ECFDF5"/>
+    <text x="58" y="238" font-size="12">🔥</text>
+    <text x="82" y="228" font-family="Inter, sans-serif" font-size="10" font-weight="700" fill="#0F172A">Viralitas</text>
+    <text x="82" y="241" font-family="Inter, sans-serif" font-size="8.5" fill="#64748B">Meme Global</text>
+  </g>
+
+  <!-- Floating Badge: Light Theme Aesthetic -->
+  <g filter="url(#mShadow)">
+    <rect x="430" y="60" width="140" height="46" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    <circle cx="452" cy="83" r="12" fill="#FEF3C7"/>
+    <text x="448" y="88" font-size="12">💡</text>
+    <text x="472" y="78" font-family="Inter, sans-serif" font-size="10" font-weight="700" fill="#0F172A">Light Theme</text>
+    <text x="472" y="91" font-family="Inter, sans-serif" font-size="8.5" fill="#64748B">Nyaman &amp; Bersih</text>
+  </g>
+</svg>

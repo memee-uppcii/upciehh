@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="antiBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EEF2FF"/>
+      <stop offset="100%" stop-color="#E0E7FF"/>
+    </linearGradient>
+    <linearGradient id="antiCore" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="50%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#312E81"/>
+    </linearGradient>
+    <linearGradient id="antiGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+    <clipPath id="antiClip">
+      <circle cx="150" cy="150" r="140"/>
+    </clipPath>
+  </defs>
+
+  <!-- Circular Base -->
+  <circle cx="150" cy="150" r="148" fill="#FFFFFF" stroke="#6366F1" stroke-width="4"/>
+  <circle cx="150" cy="150" r="140" fill="url(#antiBg)"/>
+
+  <!-- Inside Avatar Content -->
+  <g clip-path="url(#antiClip)">
+    <!-- Circuit lines in background -->
+    <path d="M60 120 H120 V180 H200" stroke="#C7D2FE" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <path d="M240 100 H180 V150 H100" stroke="#C7D2FE" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <circle cx="120" cy="180" r="4" fill="#818CF8"/>
+    <circle cx="180" cy="150" r="4" fill="#818CF8"/>
+
+    <!-- High-tech Body / Shoulders -->
+    <path d="M60 300 C60 215 95 200 150 200 C205 200 240 215 240 300 Z" fill="url(#antiCore)"/>
+    <!-- Cyber Collar plates -->
+    <polygon points="150,205 130,245 170,245" fill="#1E1B4B"/>
+    <polygon points="146,215 154,215 152,260 148,260" fill="#38BDF8"/>
+    
+    <!-- Modern Tech Head -->
+    <rect x="110" y="85" width="80" height="95" rx="24" fill="#FFFFFF" stroke="#4F46E5" stroke-width="2.5"/>
+    <rect x="120" y="105" width="60" height="35" rx="10" fill="#0F172A"/>
+
+    <!-- Glowing Cyber Visor Eyes -->
+    <rect x="127" y="117" width="18" height="10" rx="4" fill="#38BDF8"/>
+    <rect x="155" y="117" width="18" height="10" rx="4" fill="#38BDF8"/>
+    <line x1="130" y1="122" x2="142" y2="122" stroke="#FFFFFF" stroke-width="2"/>
+    <line x1="158" y1="122" x2="170" y2="122" stroke="#FFFFFF" stroke-width="2"/>
+
+    <!-- Audio / Antenna Sensors -->
+    <rect x="100" y="115" width="10" height="30" rx="4" fill="#4F46E5"/>
+    <rect x="190" y="115" width="10" height="30" rx="4" fill="#4F46E5"/>
+
+    <!-- Tech Smile / Status Matrix -->
+    <circle cx="140" cy="160" r="2.5" fill="#6366F1"/>
+    <circle cx="150" cy="162" r="2.5" fill="#6366F1"/>
+    <circle cx="160" cy="160" r="2.5" fill="#6366F1"/>
+  </g>
+
+  <!-- Active Status Badge -->
+  <circle cx="230" cy="230" r="14" fill="#FFFFFF"/>
+  <circle cx="230" cy="230" r="10" fill="#10B981"/>
+</svg>

@@ -1,0 +1,18 @@
+{
+  "name": "web-profil-modern",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website profil modern bertema light, siap diunggah ke Vercel.",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  },
+  "keywords": [
+    "vercel",
+    "portfolio",
+    "light-theme",
+    "profile-website"
+  ],
+  "author": "Tim Pengembang & Desainer",
+  "license": "MIT"
+}

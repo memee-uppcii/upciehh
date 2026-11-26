@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="oceanBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0F2FE"/>
+      <stop offset="100%" stop-color="#BAE6FD"/>
+    </linearGradient>
+    <linearGradient id="shawlGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0369A1"/>
+    </linearGradient>
+    <linearGradient id="hairGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <clipPath id="memeAvatarClip">
+      <circle cx="160" cy="160" r="146"/>
+    </clipPath>
+  </defs>
+
+  <!-- Outer Ring with Ocean Blue Accent -->
+  <circle cx="160" cy="160" r="156" fill="#FFFFFF" stroke="#0284C7" stroke-width="4"/>
+  <circle cx="160" cy="160" r="146" fill="url(#oceanBg)"/>
+
+  <!-- Inside Avatar Content -->
+  <g clip-path="url(#memeAvatarClip)">
+    <!-- Soft light aura behind head -->
+    <circle cx="160" cy="140" r="95" fill="#7DD3FC" opacity="0.4"/>
+
+    <!-- Hair bun / Traditional modern dance updo -->
+    <circle cx="160" cy="95" r="32" fill="url(#hairGrad)"/>
+    <!-- Gold / Pearl Hairpin ornament -->
+    <ellipse cx="160" cy="80" rx="18" ry="6" fill="#F59E0B"/>
+    <circle cx="160" cy="74" r="5" fill="#FDE68A"/>
+
+    <!-- Flowing Hair behind shoulders -->
+    <path d="M100 130 C100 200 95 280 105 320 H215 C225 280 220 200 220 130 C220 80 100 80 100 130 Z" fill="url(#hairGrad)"/>
+
+    <!-- Shoulders & Batik/Kebaya Modern Ocean Blue Attire -->
+    <path d="M65 320 C65 235 105 220 160 220 C215 220 255 235 255 320 Z" fill="#0369A1"/>
+    
+    <!-- Elegant Dancer Selendang / Sampur Wave (Ocean Blue Ribbon) -->
+    <path d="M80 320 C100 250 130 225 155 240 C175 252 195 230 240 320" fill="none" stroke="#38BDF8" stroke-width="14" stroke-linecap="round" opacity="0.85"/>
+    <path d="M85 320 C105 255 130 230 155 245 C175 257 195 235 235 320" fill="none" stroke="#BAE6FD" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Inner Collar (White crisp shirt/kebaya collar) -->
+    <polygon points="160,220 138,255 182,255" fill="#FFFFFF"/>
+    <polygon points="160,230 150,255 170,255" fill="#0284C7"/>
+
+    <!-- Neck -->
+    <path d="M145 175 H175 V208 C175 216 168 223 160 223 C152 223 145 216 145 208 Z" fill="#FDE2D0"/>
+
+    <!-- Head & Face -->
+    <ellipse cx="160" cy="150" rx="42" ry="50" fill="#FDE2D0"/>
+
+    <!-- Ears & Pretty Pearl Earrings -->
+    <circle cx="118" cy="152" r="8" fill="#F9CBB0"/>
+    <circle cx="202" cy="152" r="8" fill="#F9CBB0"/>
+    <circle cx="118" cy="160" r="3.5" fill="#38BDF8"/>
+    <circle cx="202" cy="160" r="3.5" fill="#38BDF8"/>
+
+    <!-- Bangs / Front Hair -->
+    <path d="M118 126 C124 92 145 84 160 84 C175 84 196 92 202 126 C190 106 175 102 160 102 C145 102 130 106 118 126 Z" fill="#0F172A"/>
+    <!-- Side lock strands -->
+    <path d="M118 126 C122 150 126 180 130 195 C132 165 138 120 155 108 C135 106 125 114 118 126 Z" fill="url(#hairGrad)"/>
+    <path d="M202 126 C198 150 194 180 190 195 C188 165 182 120 165 108 C185 106 195 114 202 126 Z" fill="url(#hairGrad)"/>
+
+    <!-- Eyebrows -->
+    <path d="M134 135 C141 132 148 133 152 136" stroke="#0F172A" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M168 136 C172 133 179 132 186 135" stroke="#0F172A" stroke-width="2.2" stroke-linecap="round"/>
+
+    <!-- Eyes (Expressive Dancer Eyes) -->
+    <circle cx="143" cy="144" r="3.8" fill="#0F172A"/>
+    <circle cx="177" cy="144" r="3.8" fill="#0F172A"/>
+    <circle cx="144.5" cy="142.5" r="1.2" fill="#FFFFFF"/>
+    <circle cx="178.5" cy="142.5" r="1.2" fill="#FFFFFF"/>
+    <!-- Eyelash / Eyeliner touch -->
+    <path d="M136 142 C141 139 148 139 151 143" stroke="#0F172A" stroke-width="1.4" fill="none"/>
+    <path d="M169 143 C172 139 179 139 184 142" stroke="#0F172A" stroke-width="1.4" fill="none"/>
+
+    <!-- Nose -->
+    <path d="M160 146 V158 H164" stroke="#E07A5F" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+
+    <!-- Warm, graceful smile -->
+    <path d="M149 174 Q160 184 171 174" stroke="#E11D48" stroke-width="2.8" stroke-linecap="round" fill="none"/>
+    <!-- Soft blush -->
+    <ellipse cx="136" cy="162" rx="7" ry="4" fill="#F43F5E" opacity="0.2"/>
+    <ellipse cx="184" cy="162" rx="7" ry="4" fill="#F43F5E" opacity="0.2"/>
+  </g>
+
+  <!-- SMK Telkom Malang Badge / Penari Berprestasi -->
+  <g filter="url(#oceanShadow)">
+    <rect x="200" y="240" width="105" height="42" rx="10" fill="#FFFFFF" stroke="#0284C7" stroke-width="1.5"/>
+    <text x="210" y="256" font-family="Inter, sans-serif" font-size="9" font-weight="800" fill="#0284C7">SMK TELKOM</text>
+    <text x="210" y="271" font-family="Inter, sans-serif" font-size="8.5" font-weight="600" fill="#0369A1">TKJ • Penari</text>
+  </g>
+</svg>

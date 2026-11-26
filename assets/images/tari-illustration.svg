@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="oceanWave" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0F2FE"/>
+      <stop offset="50%" stop-color="#BAE6FD"/>
+      <stop offset="100%" stop-color="#7DD3FC"/>
+    </linearGradient>
+    <linearGradient id="tkjGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0369A1"/>
+    </linearGradient>
+    <filter id="danceShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0369A1" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Ambient ocean ripples -->
+  <circle cx="160" cy="180" r="140" fill="#E0F2FE" opacity="0.7"/>
+  <circle cx="440" cy="270" r="130" fill="#F0F9FF" opacity="0.9"/>
+  <path d="M50 420 C150 390 250 450 350 410 C450 370 550 430 600 400 L600 500 L0 500 Z" fill="#E0F2FE" opacity="0.4"/>
+
+  <!-- Main Showcase Board -->
+  <g filter="url(#danceShadow)">
+    <rect x="80" y="70" width="440" height="340" rx="24" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="2"/>
+    
+    <!-- Header with Ocean Blue accent -->
+    <path d="M80 94 C80 80.7 90.7 70 104 70 L496 70 C509.3 70 520 80.7 520 94 L520 120 L80 120 Z" fill="#F0F9FF" stroke="#E0F2FE" stroke-width="1"/>
+    <circle cx="110" cy="95" r="5" fill="#38BDF8"/>
+    <circle cx="125" cy="95" r="5" fill="#0284C7"/>
+    <circle cx="140" cy="95" r="5" fill="#0369A1"/>
+    <rect x="170" y="85" width="240" height="20" rx="10" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="1"/>
+    <text x="195" y="99" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#0369A1">Harmoni Seni Tari &amp; Jaringan Komputer TKJ</text>
+
+    <!-- Left Box: Seni Tari & Cerita Rakyat -->
+    <rect x="105" y="140" width="185" height="160" rx="16" fill="#F0F9FF" stroke="#BAE6FD" stroke-width="1.5"/>
+    <!-- Dance silhouette / gesture (flowing selendang) -->
+    <circle cx="197" cy="190" r="28" fill="#E0F2FE"/>
+    <!-- Flowing golden & ocean selendang ribbons -->
+    <path d="M140 250 C160 170 180 160 210 180 C240 200 230 250 260 210" fill="none" stroke="#0284C7" stroke-width="6" stroke-linecap="round"/>
+    <path d="M150 255 C170 180 190 170 215 190 C235 205 235 240 255 220" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+    <!-- Dancer silhouette -->
+    <circle cx="197" cy="180" r="10" fill="#0369A1"/>
+    <path d="M190 195 C190 190 204 190 204 195 L200 230 H194 Z" fill="#0369A1"/>
+    <path d="M185 200 L170 185" stroke="#0369A1" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M205 198 L225 188" stroke="#0369A1" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="125" y="270" font-family="Inter, sans-serif" font-size="11" font-weight="700" fill="#0C4A6E">Seni Tari Tradisi</text>
+    <text x="125" y="285" font-family="Inter, sans-serif" font-size="9" fill="#0369A1">Pengejawantahan Cerita Rakyat</text>
+
+    <!-- Right Box: TKJ (Teknik Komputer Jaringan) -->
+    <rect x="310" y="140" width="185" height="160" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+    <circle cx="402" cy="190" r="28" fill="#E0F2FE"/>
+    <!-- Network Topology & Server Icon -->
+    <rect x="382" y="180" width="40" height="24" rx="4" fill="#0284C7"/>
+    <circle cx="390" cy="192" r="2" fill="#FFFFFF"/>
+    <circle cx="396" cy="192" r="2" fill="#FFFFFF"/>
+    <rect x="406" y="190" width="10" height="4" rx="1" fill="#7DD3FC"/>
+    <!-- Network Nodes & Connecting Lines -->
+    <circle cx="355" cy="230" r="6" fill="#0369A1"/>
+    <circle cx="450" cy="230" r="6" fill="#0369A1"/>
+    <line x1="402" y1="204" x2="355" y2="230" stroke="#38BDF8" stroke-width="2"/>
+    <line x1="402" y1="204" x2="450" y2="230" stroke="#38BDF8" stroke-width="2"/>
+    <line x1="355" y1="230" x2="450" y2="230" stroke="#BAE6FD" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <text x="330" y="270" font-family="Inter, sans-serif" font-size="11" font-weight="700" fill="#0F172A">Jurusan TKJ</text>
+    <text x="330" y="285" font-family="Inter, sans-serif" font-size="9" fill="#64748B">SMK Telkom Malang</text>
+
+    <!-- Bottom Caption Quote -->
+    <rect x="105" y="320" width="390" height="65" rx="14" fill="#F0F9FF" stroke="#BAE6FD" stroke-width="1"/>
+    <text x="125" y="345" font-family="Inter, sans-serif" font-size="11" font-weight="700" fill="#0369A1">"Tari bukan sekadar olah tubuh, melainkan cerita rakyat hidup."</text>
+    <text x="125" y="365" font-family="Inter, sans-serif" font-size="9.5" fill="#0284C7">3 Tahun dedikasi mengukir prestasi tari &amp; kecakapan jaringan komputer.</text>
+  </g>
+
+  <!-- Floating Badge 1: 3 Tahun Menari -->
+  <g filter="url(#danceShadow)">
+    <rect x="35" y="220" width="135" height="48" rx="12" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="1.5"/>
+    <circle cx="58" cy="244" r="12" fill="#E0F2FE"/>
+    <text x="53" y="249" font-size="12">🏆</text>
+    <text x="78" y="239" font-family="Inter, sans-serif" font-size="10" font-weight="700" fill="#0C4A6E">3 Tahun Tari</text>
+    <text x="78" y="253" font-family="Inter, sans-serif" font-size="8.5" fill="#0284C7">Banyak Prestasi</text>
+  </g>
+
+  <!-- Floating Badge 2: Ocean Blue Light Theme -->
+  <g filter="url(#danceShadow)">
+    <rect x="435" y="50" width="135" height="48" rx="12" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="1.5"/>
+    <circle cx="458" cy="74" r="12" fill="#E0F2FE"/>
+    <text x="453" y="79" font-size="12">🌊</text>
+    <text x="478" y="69" font-family="Inter, sans-serif" font-size="10" font-weight="700" fill="#0C4A6E">Biru Laut</text>
+    <text x="478" y="83" font-family="Inter, sans-serif" font-size="8.5" fill="#0284C7">Light Theme</text>
+  </g>
+</svg>

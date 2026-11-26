@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="rianBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFF6FF"/>
+      <stop offset="100%" stop-color="#DBEAFE"/>
+    </linearGradient>
+    <linearGradient id="rianSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <clipPath id="avatarClip">
+      <circle cx="150" cy="150" r="140"/>
+    </clipPath>
+  </defs>
+
+  <!-- Circular Base -->
+  <circle cx="150" cy="150" r="148" fill="#FFFFFF" stroke="#3B82F6" stroke-width="4"/>
+  <circle cx="150" cy="150" r="140" fill="url(#rianBg)"/>
+
+  <!-- Inside Avatar Content -->
+  <g clip-path="url(#avatarClip)">
+    <!-- Subtle glow behind head -->
+    <circle cx="150" cy="130" r="90" fill="#BFDBFE" opacity="0.6"/>
+
+    <!-- Shoulders & Coat -->
+    <path d="M60 300 C60 220 95 205 150 205 C205 205 240 220 240 300 Z" fill="url(#rianSuit)"/>
+    <!-- Shirt Collar & Tie -->
+    <polygon points="150,205 130,240 170,240" fill="#FFFFFF"/>
+    <polygon points="146,220 154,220 152,270 148,270" fill="#2563EB"/>
+    <path d="M125 215 L145 250 L140 300 L120 300 Z" fill="#334155"/>
+    <path d="M175 215 L155 250 L160 300 L180 300 Z" fill="#334155"/>
+
+    <!-- Neck -->
+    <rect x="135" y="170" width="30" height="42" rx="6" fill="#FBCFE8" opacity="0.3"/>
+    <path d="M135 170 H165 V195 C165 203 158 210 150 210 C142 210 135 203 135 195 Z" fill="#FBD5B5"/>
+
+    <!-- Head & Face -->
+    <ellipse cx="150" cy="142" rx="42" ry="50" fill="#FBD5B5"/>
+
+    <!-- Ears -->
+    <circle cx="106" cy="142" r="10" fill="#F5BA94"/>
+    <circle cx="194" cy="142" r="10" fill="#F5BA94"/>
+
+    <!-- Hair -->
+    <path d="M106 130 C104 90 120 72 150 72 C180 72 196 90 194 130 C186 112 176 100 150 100 C124 100 114 112 106 130 Z" fill="#1E293B"/>
+    <path d="M110 102 C125 80 165 76 190 92 C180 84 155 80 126 90 Z" fill="#334155"/>
+
+    <!-- Eyebrows -->
+    <path d="M124 124 C130 122 138 123 142 126" stroke="#1E293B" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M158 126 C162 123 170 122 176 124" stroke="#1E293B" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Glasses (modern frame) -->
+    <rect x="120" y="128" width="24" height="18" rx="4" fill="none" stroke="#1E293B" stroke-width="2"/>
+    <rect x="156" y="128" width="24" height="18" rx="4" fill="none" stroke="#1E293B" stroke-width="2"/>
+    <line x1="144" y1="137" x2="156" y2="137" stroke="#1E293B" stroke-width="2"/>
+    <line x1="108" y1="135" x2="120" y2="136" stroke="#1E293B" stroke-width="2"/>
+    <line x1="180" y1="136" x2="192" y2="135" stroke="#1E293B" stroke-width="2"/>
+
+    <!-- Eyes -->
+    <circle cx="132" cy="137" r="3" fill="#0F172A"/>
+    <circle cx="168" cy="137" r="3" fill="#0F172A"/>
+
+    <!-- Nose -->
+    <path d="M150 138 V152 H155" stroke="#D97706" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+
+    <!-- Friendly Smile -->
+    <path d="M138 165 Q150 174 162 165" stroke="#9A3412" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Active Status Badge -->
+  <circle cx="230" cy="230" r="14" fill="#FFFFFF"/>
+  <circle cx="230" cy="230" r="10" fill="#10B981"/>
+</svg>
